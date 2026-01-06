@@ -81,7 +81,7 @@ body {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #f0f0f0, #dcdcdc);
+   background: linear-gradient(135deg, #f0f0f0, #dcdcdc);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -149,5 +149,3 @@ body {
 .login-card a:hover {
   text-decoration: underline;
 }
-
-
