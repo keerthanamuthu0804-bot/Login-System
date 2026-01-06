@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #f0f0f0, #dcdcdc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.auth-container {
+  background: #fff;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.auth-container p {
+  margin-bottom: 20px;
+  color: #777;
+  font-size: 14px;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.auth-container input:focus {
+  border-color: #667eea;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 12px;
+  background: #667eea;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background: #5a67d8;
+}
+
+.back-link {
+  margin-top: 15px;
+  display: block;
+  font-size: 14px;
+  color: #667eea;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+
+/* RESET / FORGOT PASSWORD */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 380px;
+  padding: 20px;
+}
+
+.login-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-card h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.login-card p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background: #667eea;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-card button:hover {
+  background: #5a67d8;
+}
+
+.login-card a {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #667eea;
+  text-decoration: none;
+}
+
+.login-card a:hover {
+  text-decoration: underline;
+}

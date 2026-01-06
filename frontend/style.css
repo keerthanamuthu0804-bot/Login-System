@@ -1,0 +1,128 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Body background */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f0f0f0, #dcdcdc);
+}
+
+/* Login Card */
+.login-card {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Logo */
+.logo {
+  font-size: 50px;
+  color: #667eea;
+  margin-bottom: 15px;
+}
+
+/* Heading */
+.login-card h2 {
+  margin-bottom: 5px;
+}
+
+.login-card p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Input group */
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-group i {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #667eea;
+  font-size: 16px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 40px 12px 40px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  outline: none;
+}
+
+.password-box span {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #667eea;
+  font-size: 14px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Links */
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.links a {
+  font-size: 13px;
+  color: #667eea;
+  text-decoration: none;
+}
+
+/* Social login */
+.social-login {
+  margin-top: 20px;
+}
+
+.social-login p {
+  color: #666;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.social-icons i {
+  font-size: 22px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #667eea;
+}
+
+
